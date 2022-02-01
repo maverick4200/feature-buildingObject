@@ -1,7 +1,8 @@
 class GuitarMaker {
+    //guitar body shape ex: Flying v, strat ,explorer etc.
     private guitarBodyShape:string;
 
-    constructor(petalColor:string) {
+    constructor(guitarBodyShape:string) {
         this.guitarBodyShape = this.guitarBodyShape
     }
 
