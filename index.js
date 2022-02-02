@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var GuitarMaker_1 = require("./GuitarMaker");
+var ElectricGuitar_1 = require("./ElectricGuitar");
+var AcousticGuitar_1 = require("./AcousticGuitar");
+var newGuitar = new GuitarMaker_1.GuitarMaker("StratGuitar");
+console.log(newGuitar.disp());
+var newEletricGuitar = new ElectricGuitar_1.ElectricGuitar("electricGuitar");
+var newAcousticGuitar = new AcousticGuitar_1.AcousticGuitar("acousticGuitar");
+console.log(newAcousticGuitar.acousticGuitar());
+console.log(newAcousticGuitar.disp());
+console.log(newEletricGuitar.electricGuitar());
+console.log(newEletricGuitar.disp());
