@@ -19,8 +19,8 @@ exports.AcousticGuitar = void 0;
 var GuitarMaker_1 = require("./GuitarMaker");
 var AcousticGuitar = /** @class */ (function (_super) {
     __extends(AcousticGuitar, _super);
-    function AcousticGuitar(guitarBodyShape) {
-        var _this = _super.call(this, guitarBodyShape) || this;
+    function AcousticGuitar(guitarType) {
+        var _this = _super.call(this, guitarType) || this;
         _this.amplifier = false;
         return _this;
     }

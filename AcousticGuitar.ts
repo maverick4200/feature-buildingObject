@@ -3,8 +3,8 @@ import { GuitarMaker } from "./GuitarMaker"
 export class AcousticGuitar extends GuitarMaker {
     private amplifier: boolean;
 
-    constructor(guitarBodyShape: string) {
-        super(guitarBodyShape);
+    constructor(guitarType: string) {
+        super(guitarType);
         this.amplifier = false;
     }
 
