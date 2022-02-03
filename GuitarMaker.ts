@@ -1,12 +1,12 @@
 export class GuitarMaker {
     //guitar body shape ex: Flying v, strat ,explorer etc.
-    private guitarBodyShape:string;
+    private guitarType:string;
 
-    constructor(guitarBodyShape:string) {
-        this.guitarBodyShape = guitarBodyShape;
+    constructor(guitarType:string) {
+        this.guitarType = guitarType;
     }
 
     disp():string {
-        return "The guitar's body shape is : "+this.guitarBodyShape;
+        return "The guitar is a: "+this.guitarType;
     }
 }
