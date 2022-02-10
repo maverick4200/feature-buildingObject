@@ -1,14 +1,9 @@
-import { GuitarMaker } from "./GuitarMaker"
+import { SpecialGuitar } from "./SpecialGuitar";
 
-export class AcousticGuitar extends GuitarMaker {
-    private amplifier: boolean;
-
-    constructor(guitarType: string) {
-        super(guitarType);
-        this.amplifier = false;
+export class AcousticGuitar extends SpecialGuitar {
+     
+    constructor(guitarBodyShape: string) {
+        super(guitarBodyShape, "Acoustic");
     }
-
-    acousticGuitar(): string {
-        return "This guitar is acoustic: " + this.amplifier;
-    }
+    
 }
